@@ -23,4 +23,4 @@ Seed: Fixed in code for reproducibility
 
 Contact
 For questions or suggestions, feel free to reach out:
-a.alshomer@gmail.com
+a.alshomer@gmail.com 
