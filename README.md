@@ -61,21 +61,9 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 ---
-
-## 🚀 Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/yourname/NFR-Modeling-with-LLMs.git
-cd NFR-Modeling-with-LLMs
-
-# Create virtual environment (optional)
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
+## 📬 Contact
+For questions, collaborations, or feedback:  
+📧 [a.alshomer@gmail.com](mailto:a.alshomer@gmail.com)
 ---
 
 
