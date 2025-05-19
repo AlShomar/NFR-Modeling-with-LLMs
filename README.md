@@ -1,27 +1,61 @@
-<span style="font-size: 42px"><strong>NFR Modeling with Large Language Models (LLMs)</strong></span>
+# 🧠 NFR Modeling with Large Language Models (LLMs)
 
-This repository contains the replication package for the paper:
+This repository contains the **replication package** for the paper:
 
-"Teaching LLMs Non-Functional Requirements Modeling: A Grammar and RAG Approach"
-Submitted to 2025 IEEE SSE (2025 International Conference on Software Services Engineering)
+> ### 🎓 *Teaching LLMs Non-Functional Requirements Modeling: A Grammar and RAG Approach*  
+> Submitted to **IEEE SSE 2025** (International Conference on Software Services Engineering)
 
+---
 
-It includes code, grammar rules, ontology definitions, and both RAG-based and baseline implementations for generating Softgoal Interdependency Graphs (SIGs).
+## 📚 Overview
 
+This project focuses on automating **Non-Functional Requirements (NFR)** modeling using **Large Language Models (LLMs)**.  
+It integrates:
 
+- ✅ **Text-based grammar** for syntactic control
+- ✅ **RAG (Retrieval-Augmented Generation)** to provide domain context
+- ✅ **Ontology-based reasoning** for softgoal classification
+- ✅ **SIG generation** using GPT-4 with minimal examples
 
-<span style="font-size: 42px"><strong>Model Configuration</strong></span>
+---
 
-Model: gpt-4 (OpenAI)
+## ⚙️ Model Configuration
 
-Temperature: 0.2
+| Parameter        | Value                    |
+|------------------|--------------------------|
+| **Model**        | `gpt-4` (OpenAI)         |
+| **Temperature**  | `0.2`                    |
+| **Max Tokens**   | `1024`                   |
+| **Repetitions**  | `3` runs per prompt      |
+| **Seed**         | Fixed (for reproducibility) |
 
-Max Tokens: 1024
+> 💡 *All model parameters are defined in the codebase and can be adjusted in the `.py` files.*
 
-Repetition: 3 runs per prompt (optional for consistency check)
+---
 
-Seed: Fixed in code for reproducibility
+## 📂 Components
 
-Contact
-For questions or suggestions, feel free to reach out:
-a.alshomer@gmail.com 
+- `SIG-GPT.py` – Web interface using Flask
+- `RAGNOGram.py` – SIG generation with RAG and examples
+- `NoRAGNOGram.py` – SIG generation without RAG (baseline)
+- `sig_generator.py` – Advanced SIG generator with ontology and grammar
+- `sig_ontology.json` – Ontology for softgoals and relationships
+- `GrammarUsed.txt` – Grammar specification for SIG syntax
+- `requirements.txt` – Python dependencies
+- `pdf_chunks.db` – **(external link or local)** knowledge base for RAG
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/yourname/NFR-Modeling-with-LLMs.git
+cd NFR-Modeling-with-LLMs
+
+# Create virtual environment (optional)
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Install dependencies
+pip install -r requirements.txt
