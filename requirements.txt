@@ -1,0 +1,28 @@
+openai==1.3.7
+flask==2.3.3
+numpy==1.26.4
+faiss-cpu==1.7.4
+
+
+
+openai is used for calling GPT models.
+
+flask is used for the web interface in SIG-GPT.py.
+
+numpy and faiss-cpu are used in vector indexing (likely for advanced retrieval or similarity matching).
+
+SQLite is built-in with Python, so no need to list it.
+
+If you're using a different version of Python (e.g., 3.9 or 3.10), these versions are compatible.
+
+
+To use it:
+
+Place this content in a file named requirements.txt in your root project folder.
+
+Then run:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
