@@ -42,7 +42,7 @@ It integrates:
 - `sig_ontology.json` – Ontology for softgoals and relationships  
 - `GrammarUsed.txt` – Grammar specification for SIG syntax  
 - `requirements.txt` – Python dependencies  
-- `pdf_chunks.db` – **(external link or local)** knowledge base for RAG
+- `pdf_chunks.db` – **(external or local)** knowledge base for RAG
 
 ---
 
