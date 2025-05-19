@@ -1,4 +1,4 @@
-<span style="font-size: 26px"><strong>NFR Modeling with Large Language Models (LLMs)</strong></span>
+<span style="font-size: 42px"><strong>NFR Modeling with Large Language Models (LLMs)</strong></span>
 
 NFR Modeling with Large Language Models (LLMs)
 This repository contains the replication package for the paper:
