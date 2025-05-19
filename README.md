@@ -1,3 +1,7 @@
+## 📬 Contact
+For questions, collaborations, or feedback:  
+📧 [a.alshomer@gmail.com](mailto:a.alshomer@gmail.com)
+
 # 🧠 NFR Modeling with Large Language Models (LLMs)
 
 This repository contains the **replication package** for the paper:
@@ -12,9 +16,9 @@ This repository contains the **replication package** for the paper:
 This project focuses on automating **Non-Functional Requirements (NFR)** modeling using **Large Language Models (LLMs)**.  
 It integrates:
 
-- ✅ **Text-based grammar** for syntactic control
-- ✅ **RAG (Retrieval-Augmented Generation)** to provide domain context
-- ✅ **Ontology-based reasoning** for softgoal classification
+- ✅ **Text-based grammar** for syntactic control  
+- ✅ **RAG (Retrieval-Augmented Generation)** to provide domain context  
+- ✅ **Ontology-based reasoning** for softgoal classification  
 - ✅ **SIG generation** using GPT-4 with minimal examples
 
 ---
@@ -35,13 +39,13 @@ It integrates:
 
 ## 📂 Components
 
-- `SIG-GPT.py` – Web interface using Flask
-- `RAGNOGram.py` – SIG generation with RAG and examples
-- `NoRAGNOGram.py` – SIG generation without RAG (baseline)
-- `sig_generator.py` – Advanced SIG generator with ontology and grammar
-- `sig_ontology.json` – Ontology for softgoals and relationships
-- `GrammarUsed.txt` – Grammar specification for SIG syntax
-- `requirements.txt` – Python dependencies
+- `SIG-GPT.py` – Web interface using Flask  
+- `RAGNOGram.py` – SIG generation with RAG and examples  
+- `NoRAGNOGram.py` – SIG generation without RAG (baseline)  
+- `sig_generator.py` – Advanced SIG generator with ontology and grammar  
+- `sig_ontology.json` – Ontology for softgoals and relationships  
+- `GrammarUsed.txt` – Grammar specification for SIG syntax  
+- `requirements.txt` – Python dependencies  
 - `pdf_chunks.db` – **(external link or local)** knowledge base for RAG
 
 ---
@@ -59,11 +63,3 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 
 # Install dependencies
 pip install -r requirements.txt
-
----
-## 📬 Contact
-For questions, collaborations, or feedback:  
-📧 [a.alshomer@gmail.com](mailto:a.alshomer@gmail.com)
----
-
-
