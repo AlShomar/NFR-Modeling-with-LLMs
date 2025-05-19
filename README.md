@@ -1,6 +1,5 @@
 <span style="font-size: 42px"><strong>NFR Modeling with Large Language Models (LLMs)</strong></span>
 
-NFR Modeling with Large Language Models (LLMs)
 This repository contains the replication package for the paper:
 
 "Teaching LLMs Non-Functional Requirements Modeling: A Grammar and RAG Approach"
@@ -11,8 +10,8 @@ It includes code, grammar rules, ontology definitions, and both RAG-based and ba
 
 
 
+<span style="font-size: 42px"><strong>Model Configuration</strong></span>
 
-Model Configuration
 Model: gpt-4 (OpenAI)
 
 Temperature: 0.2
