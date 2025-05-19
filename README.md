@@ -66,4 +66,6 @@ pip install -r requirements.txt
 For questions, collaborations, or feedback:
 📧 a.alshomer@gmail.com
 
+---
+
 
