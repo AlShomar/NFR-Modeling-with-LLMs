@@ -1,0 +1,32 @@
+{
+    "Softgoal": {
+        "types": ["NFRSoftgoal", "OperationalizingSoftgoal", "ClaimSoftgoal"],
+        "examples": {
+            "NFRSoftgoal": ["Security", "Availability", "AccessControl", "Confidentiality", "Integrity", "Performance", "TimePerformance", "SpacePerformance"],
+            "OperationalizingSoftgoal": ["BackupSystems", "Redundancy", "UserAuthentication", "Encryption", "ImplementFastAlgorithms", "ImplementEfficientDataStructures"],
+            "ClaimSoftgoal": ["System is scalable"]
+        }
+    },
+    "Relations": {
+        "Decomposition": ["AND", "OR"],
+        "Contribution": ["MAKE", "HELP", "HURT"]
+    },
+    "Rules": [
+        {
+            "name": "AND Decomposition",
+            "description": "A parent goal is satisfied only if all its AND-related subgoals are satisfied."
+        },
+        {
+            "name": "HELP Contribution",
+            "description": "An operationalizing softgoal must contribute to an NFR softgoal."
+        },
+        {
+            "name": "MAKE Contribution",
+            "description": "An operationalizing softgoal strongly contributes to an NFR softgoal."
+        },
+        {
+            "name": "HURT Contribution",
+            "description": "A negative impact from an operationalizing softgoal to an NFR softgoal, but only in predefined cases."
+        }
+    ]
+}
