@@ -1,5 +1,3 @@
-
-
 # 🧠 NFR Modeling with Large Language Models (LLMs)
 
 This repository contains the **replication package** for the paper:
@@ -61,11 +59,3 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 
 # Install dependencies
 pip install -r requirements.txt
-
-
----
-
-
-## 📬 Contact
-For questions, collaborations, or feedback:  
-📧 [a.alshomer@gmail.com](mailto:a.alshomer@gmail.com)
