@@ -34,8 +34,7 @@ It integrates:
 ---
 
 ## 📂 Components
-
-- `SIG-GPT.py` – Web interface using Flask  
+ 
 - `RAGNOGram.py` – SIG generation with RAG and examples  
 - `NoRAGNOGram.py` – SIG generation without RAG (baseline)  
 - `sig_generator.py` – Advanced SIG generator with ontology and grammar  
